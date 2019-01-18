@@ -22,3 +22,4 @@ for filename in train_cat:
 
 for filename in train_dog:
     os.symlink('../../train/'+filename, 'train2/dog/'+filename)
+#修改一次
